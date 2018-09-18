@@ -215,3 +215,43 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (max-width: 980px) {
+      #main-container {
+          max-width: 768px;
+          float: left;
+      }
+      nav {
+          margin-right: 30px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      #main-container {
+        max-width: 768px;
+        float: left;  
+      }
+      nav {
+          margin-right: 30px;
+      }
+    }
+
+  @media screen and (max-width: 640px) {
+    #main-container {
+        max-width: 640px;
+        float: left;
+        padding-top: 0px;
+      }
+    #masthead {
+        position: static; 
+    }
+    #logo {
+        width: 100%;
+    } 
+    nav {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}
